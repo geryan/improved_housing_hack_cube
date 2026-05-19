@@ -188,7 +188,7 @@ y2_observed  <- as_data(y2_sim)
 
 k_latent <- exponential(1)
 
-x1_latent <- normal(0, 1, dim = nobs)
+x1_latent <- normal(0, 5, dim = nobs)
 
 x2_latent <- x1_latent + x_delta_observed
 
